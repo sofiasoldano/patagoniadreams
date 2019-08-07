@@ -27,7 +27,7 @@
         <div class="tab-content">
             <div id="calafate" class="tab-pane fade in active show row">
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="box activity">
+                    <a href="#" class="box activity selected">
                         <div class="image"><img src="img/glaciar-perito-moreno.jpg" class="img-responsive"></div>
                         <div class="content">
                             <div class="name">Glaciar Perito Moreno</div>

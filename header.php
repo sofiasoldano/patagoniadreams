@@ -56,9 +56,9 @@
                         <img src="img/logo-default.png" width="260" class="default">
                         <img src="img/logo-white.png" width="260" class="white">
                     </div>
-                    <div class="icon-shop">
+                    <a href="page-carrito.php" class="icon-shop">
                         <img src="img/shop.png" width="35">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
