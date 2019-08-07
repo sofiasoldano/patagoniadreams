@@ -1279,61 +1279,61 @@ footer .social li a{
     color: #008745;
     margin-left: 50px;
 }
-.purchase .detail{
+.purchase .form-container .detail{
     background: transparent;
     padding: 0;
     margin-bottom: 30px;
 }
-.purchase .detail .featured-image{
+.purchase .form-container .detail .featured-image{
     width: 267px;
     min-width: 267px;
     height: 234px;
 }
-.purchase .detail .stars li{
+.purchase .form-container .detail .stars li{
     margin-bottom: 10px;
     transform: scale(0.6);
     margin-right: -11px;
 }
-.purchase .detail .name{
+.purchase .form-container .detail .name{
     font-size: 26px;
     margin: 0;
 }
-.purchase .detail p{
+.purchase .form-container .detail p{
     font-size: 17px;
     margin: 0;
 }
-.purchase .detail .price{
+.purchase .form-container .detail .price{
     margin: 12px 0;
     border: 0;
     padding: 0;
 }
-.purchase .detail .price .number{
+.purchase .form-container .detail .price .number{
     font-size: 35px;
 }
-.purchase .detail .price .number span{
+.purchase .form-container .detail .price .number span{
     font-size: 19px;
 }
-.purchase .price{
+.purchase .form-container .price{
     font-size: 32px;
     font-weight: 500;
     margin: 80px 0;
     border-top: 4px solid #82D1E7;
     padding: 20px 0;
 }
-.purchase .price p{
+.purchase .form-container .price p{
     margin: 0;
 }
-.purchase .price .number{
+.purchase .form-container .price .number{
     font-size: 47px;
     font-weight: 600;
     display: flex;
     align-items: center;
 }
-.purchase .price .number span{
+.purchase .form-container .price .number span{
     font-size: 25px;
     margin-right: 10px;
 }
-.purchase .pay{
+.purchase .form-container .pay{
     float: right;
     background: #82D1E7;
     color: #000000;
