@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 hidden-xs">
                 <ul class="nav nav-tabs d-flex justify-content-between">
                     <li><p class="filter">Filtros</p></li>
                     <li><a data-toggle="tab" href="#calafate"  class="active">El Calafate</a></li>
@@ -22,6 +22,18 @@
                     <li><a data-toggle="tab" href="#chalten">El Chaltén</a></li>
                     <li><a data-toggle="tab" href="#chile">Puerto Natales, Chile</a></li>
                 </ul>
+            </div>
+            <div class="col-md-12 visible-xs">
+                <p class="filter">Filtros</p>
+                <div class="filter-container">
+                    <select class="select-filter" name="select">
+                        <option value="calafate">El Calafate</option> 
+                        <option value="ushuaia">Ushuaia</option> 
+                        <option value="bariloche">Bariloche</option> 
+                        <option value="chalten">El Chaltén</option> 
+                        <option value="chile">Puerto Natales, Chile</option> 
+                    </select>
+                </div>
             </div>
         </div>
         <div class="tab-content">

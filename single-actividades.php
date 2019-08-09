@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="row d-flex justify-content-end">
-            <div class="col-md-5">  
+            <div class="col-10 col-md-8 col-lg-5">  
                 <div class="description">
                     <div class="box">
                         <div class="desc">
@@ -56,7 +56,7 @@
                     </div>
                     
                 </div>
-                <div class="prepare">
+                <div class="prepare hidden-xs">
                     <h3 class="subtitle">Prepárate para la actividad</h3>
                     <ul class="included">
                         <li>Traslados: Pick up por hoteles centricos</li>

@@ -9,13 +9,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-xl-4">
                 <div class="section-title">¡Hablemos!</div>
                  <p>(+54) 2902 - 494 -450 <br> (+54) 2902 - 496 - 100</p>
                 <a href="mailto:reservas@patagoniadreams.com.ar" class="lnk">reservas@patagoniadreams.com.ar</a>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-xl-8">
                 <div class="section-title">Nuestras Oficinas</div>
                 <div class="content d-flex justify-content-between">
                     <div>

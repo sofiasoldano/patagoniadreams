@@ -177,7 +177,7 @@
                 </div>
                 
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 hidden-xs">
                 <div class="detail small">
                     <h3 class="subtitle">Detalle de la compra</h3>
                     <div>

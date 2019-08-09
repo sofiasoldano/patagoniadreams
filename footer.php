@@ -2,7 +2,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-xl-4">
                     <div class="section-title">Nuestras Oficinas</div>
                     <div class="content">
                         <p><b>El Calafate</b><br>Comandante Espora 33 Local 2  </p>
@@ -10,7 +10,7 @@
                         <p>¡Estamos todos los días!<br><b>08:00 a 20:00hs  </b></p>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-xl-4 text-center">
                     <div class="section-title">Newsletter</div>
                     <p>Recibí ofertas y descubrí <br> El Calafate</p>
                     <div class="newsletter">
@@ -18,7 +18,7 @@
                         <input type="submit" value="Enviar" class="submit">
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-xl-4 text-center">
                     <div class="section-title">¡Hablemos!</div>
                      <p>(+54) 2902 - 494 -450 <br> (+54) 2902 - 496 - 100</p>
                     <a href="mailto:reservas@patagoniadreams.com.ar" class="lnk">reservas@patagoniadreams.com.ar</a>
