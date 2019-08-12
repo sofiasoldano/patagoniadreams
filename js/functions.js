@@ -33,6 +33,22 @@ $(document).ready(function() {
     $( window ).resize(function() {
         mobileSlider();
     });
+    
+    $("#personas").focus(function() { 
+        $('.input-dropdown').addClass('show');
+    }); 
+    $("#personas").focusout(function() { 
+        $('.input-dropdown').removeClass('show');
+    }); 
+    $('.input-dropdown').click(function() {
+      $("#personas").focus();
+    });
+    dropdown();
+    $( window ).resize(function() {
+        dropdown();
+    });
+    
+    numberPicker();
 });
 
 function mobileSlider(){
@@ -56,4 +72,33 @@ function mobileSlider(){
         
     }
 }
+
+function dropdown(){
+    var inputPosition = $("#personas").position().left;
+    var value = inputPosition ;
+    $(".input-dropdown").css("left", value);
+}
+
+function numberPicker(){
+    $(".number-picker .icon").on("click", function() {
+
+      var $button = $(this);
+      var oldValue = $button.parent().find("input").val();
+
+      if ($button.hasClass('plus')) {
+          var newVal = parseFloat(oldValue) + 1;
+        } else {
+       // Don't allow decrementing below zero
+        if (oldValue > 0) {
+          var newVal = parseFloat(oldValue) - 1;
+        } else {
+          newVal = 0;
+        }
+      }
+
+      $button.parent().find("input").val(newVal);
+
+    });
+}
+
     

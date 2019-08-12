@@ -158,7 +158,27 @@
                 <div class="inputs d-flex justify-content-between">
                     <input type="text" placeholder="Fechas" class="fechas">
                     <input type="text" placeholder="Destino" class="destino">
-                    <input type="text" placeholder="Personas" class="personas">
+                    <input id="personas" type="text" placeholder="Personas" class="personas">
+                    <div class="input-dropdown">
+                        <div class="d-flex justify-content-between">
+                            <div><p>Adultos<br><span>Desde 18 años</span></p></div>
+                            <div class="number-picker">
+                                
+                                <a class="icon minus"></a>
+                                <input class="steppers-tag" readonly="readonly" tabindex="-1" value="1">
+                                <a class="icon plus"></a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><p>Menores<br><span>Hasta 17 años</span></p></div>
+                            <div class="number-picker">
+                                
+                                <a class="icon minus"></a>
+                                <input class="steppers-tag" readonly="readonly" tabindex="-1" value="1">
+                                <a class="icon plus"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="btn" href="#">Buscar</a>
             </div>

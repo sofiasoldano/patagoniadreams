@@ -252,6 +252,90 @@ ul{
     font-weight: 500;
     margin-left: 10px;
 }
+.input-dropdown{
+    position: absolute;
+    display: block;
+    width: 300px;
+    top: 70px;
+    background: #ffffff;
+    box-shadow: rgba(0,0,0,0.25) 0 2px 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.input-dropdown:before {
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 16px;
+    left: calc(50% - 8px);
+    transform: rotateZ(45deg);
+    top: -7px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.input-dropdown > div{
+    background: #ffffff;
+    position: relative;
+    padding: 20px 20px 0;
+    border-radius: 8px;
+}
+.input-dropdown p{
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+}
+.input-dropdown p span{
+    font-size: 15px;
+    color: #aaa;
+}
+.input-dropdown .number-picker{
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 40px;
+}
+.input-dropdown .number-picker .icon{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.input-dropdown .number-picker .icon:before, .input-dropdown .number-picker .icon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 3px;
+    background: #000000;
+    top: 11px;
+    left: calc(50% - 5px);
+}
+.input-dropdown .number-picker .icon.plus:after{
+    transform: rotate(90deg);
+}
+.input-dropdown .number-picker input{
+    background: none;
+    text-align: center;
+    border: 0;
+    font-size: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.31);
+    border-left: 1px solid rgba(0, 0, 0, 0.31);
+    height: 24px;
+    margin: 0 2px;
+    margin-top: 8px;
+    display: inline-block;
+    min-width: 35px;
+    max-width: 33%;
+}
+.input-dropdown.show{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
+}
 
 /* -- PARTIALS -- */
 /* HEADER */
@@ -568,6 +652,7 @@ header .menu .close-menu .line:nth-of-type(2){
 }
 .plan .inputs{
     margin: 80px 0;
+    position: relative;
 }
 .plan input{
     max-width: 30%;
@@ -1582,6 +1667,10 @@ footer .bottom .d-flex > div{
         margin-top: 20px;
         margin-bottom: 80px;
     }
+    .input-dropdown{
+        top: initial;
+        bottom: -130px;
+    }
 }
 @media (min-width: 768px) {
     .visible-xs{
@@ -1596,6 +1685,9 @@ footer .bottom .d-flex > div{
     }
     .single-slider{
         margin-bottom: -71px;
+    }
+    .input-dropdown{
+        margin-left: -70px;
     }
 }
 @media (min-width: 990px) {
@@ -1669,6 +1761,9 @@ footer .bottom .d-flex > div{
     .single-slider{
         margin-bottom: -271px;
     }
+    .input-dropdown {
+        margin-left: -25px;
+    }
 }
 @media (min-width: 1200px) {
     footer .bottom .d-flex{
@@ -1681,6 +1776,9 @@ footer .bottom .d-flex > div{
         font-size: 160px;
         font-weight: 300;
         letter-spacing: 8px;
+    }
+    .input-dropdown {
+        margin-left: -13px;
     }
 }
 
@@ -1696,6 +1794,9 @@ footer .bottom .d-flex > div{
     }
     .gallery .tripadvisor{
         height: 725px;
+    }
+    .input-dropdown {
+        margin-left: 0;
     }
 }
 
