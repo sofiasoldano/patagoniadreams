@@ -5,7 +5,7 @@ html, body{
 	background: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 1.5;
     color: #000000;
     overflow-x: hidden;
@@ -489,6 +489,7 @@ header .menu .close-menu .line:nth-of-type(2){
     bottom: 0;
     left: 0;
     width: 100%;
+    letter-spacing: 2px;
 }
 .hero-slider li{
     position: relative;
@@ -1587,7 +1588,7 @@ footer .bottom .d-flex > div{
         display: none;
     }
     .title{
-        font-size: 53px;
+        font-size: 45px;
         letter-spacing: 5px;
     }
     .subtitle{
@@ -1678,6 +1679,8 @@ footer .bottom .d-flex > div{
     }
     .hero-slider .main-title{
         font-size: 160px;
+        font-weight: 300;
+        letter-spacing: 8px;
     }
 }
 
