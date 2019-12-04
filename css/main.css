@@ -1749,13 +1749,14 @@ footer .bottom .d-flex > div{
     display: inline-block;
     border: 1px solid rgba(61, 67, 84, 0.5);
     padding: 0 10px;
+    height: 50px;
 }
 .purchase .input-container select{
     -webkit-appearance: none;
     background: transparent;
     border-radius: 0;
-    height: 50px;
     font-weight: 100;
+    margin-bottom: 12px;
 }
 .purchase .select-container{
     position: relative;
@@ -1765,7 +1766,7 @@ footer .bottom .d-flex > div{
     position: absolute;
     display: block;
     height: 13px;
-    width: 1px;
+    width: 2px;
     background: #1d2635;
     right: 27px;
     top: 20px;
