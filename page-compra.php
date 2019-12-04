@@ -104,19 +104,19 @@
                             </div>
                             <div class="input-container">
                                 <label for="titular">Titular de la tarjeta</label>
-                                <input id="titular" name="titular" type="text">
+                                <input id="titular" name="titular" type="text" placeholder="Como figura en la tarjeta">
                             </div>
                             <div class="input-container">
                                 <label for="numero">Número de la tarjeta</label>
-                                <input id="numero" name="numero" type="text">
+                                <input id="numero" name="numero" type="text" placeholder="Ingresá el número completo de tu tarjeta">
                             </div>
                             <div class="input-container">
                                 <label for="fecha">Fecha de caducidad</label>
-                                <input id="fecha" name="fecha" type="text">
+                                <input id="fecha" name="fecha" type="text" placeholder="MM/AA">
                             </div>
                             <div class="input-container">
                                 <label for="codigo">Código de seguridad</label>
-                                <input id="codigo" name="codigo" type="text">
+                                <input id="codigo" name="codigo" type="text" placeholder="Últimos 3 digitos detrás de la tarjeta">
                             </div>
                             <div class="line"></div>
                             <div class="checkbox-container">
