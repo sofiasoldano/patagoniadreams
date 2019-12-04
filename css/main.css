@@ -1744,18 +1744,45 @@ footer .bottom .d-flex > div{
     padding-left: 15px;
     font-size: 19px;
 }
-.purchase .input-container input, .purchase .input-container select{
+.purchase .input-container input, .purchase .input-container .select{
     width: 70%;
     display: inline-block;
     border: 1px solid rgba(61, 67, 84, 0.5);
     padding: 0 10px;
     height: 50px;
 }
-.purchase .input-container select{
+.dd-container{
+    width: 70% !important;
+}
+.dd-select{
+    width: 100% !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    border: 1px solid rgba(61, 67, 84, 0.5) !important;
+}
+.dd-pointer-down{
+    display: none;
+}
+.dd-selected-text, .dd-option-text{
+    padding: 0;
+    font-weight: 200;
+    padding-left: 5px !important;
+    width: 50% !important;
+}
+.dd-selected-description, .dd-desc{
+    font-size: 12px;
+    margin-top: -4px;
+    color: #000000;
+    padding-left: 5px;
+}
+.dd-options {
+    width: 100% !important;
+}
+.purchase .input-container .select{
     -webkit-appearance: none;
     background: transparent;
     border-radius: 0;
-    font-weight: 100;
+    font-weight: 200;
     margin-bottom: 12px;
 }
 .purchase .select-container{
@@ -1769,7 +1796,7 @@ footer .bottom .d-flex > div{
     width: 2px;
     background: #1d2635;
     right: 27px;
-    top: 20px;
+    top: 30px;
     transform: rotate(45deg);
     transition: all 0.5s;
 }
@@ -2171,11 +2198,11 @@ footer .bottom .d-flex > div{
         margin-bottom: 80px;
     }
     header .menu li a{
-        font-size: 36px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        margin-bottom: 15px;
     }
     header .profesionales{
-        font-size: 28px;
+        font-size: 20px;
     }
     .hero-slider .main-title{
         font-size: 120px;

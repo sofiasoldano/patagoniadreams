@@ -92,33 +92,15 @@
                             </div>
                             <div class="input-container select-container">
                                 <label>Seleccioná banco</label>
-                                <select>
-                                    <option value="galicia">Banco Galicia</option>
-                                    <option value="galicia">Banco Galicia</option>
-                                    <option value="galicia">Banco Galicia</option>
-                                    <option value="galicia">Banco Galicia</option>
-                                    <option value="galicia">Banco Galicia</option>
-                                </select>
+                                <div class="select" id="selectBanco"></div>
                             </div>
                             <div class="input-container select-container">
                                 <label>Seleccioná Tarjeta</label>
-                                <select>
-                                    <option value="visa">Visa</option>
-                                    <option value="visa">Visa</option>
-                                    <option value="visa">Visa</option>
-                                    <option value="visa">Visa</option>
-                                    <option value="visa">Visa</option>
-                                </select>
+                                <div class="select" id="selectTarjeta"></div>
                             </div>
                             <div class="input-container select-container">
                                 <label>Opciones de cuotas</label>
-                                <select>
-                                    <option value="9">9 cuotas fijas de $210</option>
-                                    <option value="9">9 cuotas fijas de $210</option>
-                                    <option value="9">9 cuotas fijas de $210</option>
-                                    <option value="9">9 cuotas fijas de $210</option>
-                                    <option value="9">9 cuotas fijas de $210</option>
-                                </select>
+                                <div class="select" id="selectCuotas"></div>
                             </div>
                             <div class="input-container">
                                 <label for="titular">Titular de la tarjeta</label>

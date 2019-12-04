@@ -38,6 +38,102 @@ $(document).ready(function() {
        selectAllText: "Select all",
     });
     
+    var bancoData = [
+        {
+            text: "Banco Galicia",
+            value: 1,
+            selected: true,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/galicia.png"
+        },
+        {
+            text: "Banco Galicia",
+            value: 2,
+            selected: false,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/galicia.png"
+        },
+        {
+            text: "Banco Galicia",
+            value: 3,
+            selected: false,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/galicia.png"
+        },
+
+    ];
+    
+    $('#selectBanco').ddslick({
+        data:bancoData,
+        selectText: "Seleccioná tu banco",
+        imagePosition:"left",
+        onSelected: function(selectedData){
+            //callback function: do something with selectedData;
+        }   
+    });
+    
+     var tarjetaData = [
+        {
+            text: "Visa",
+            value: 1,
+            selected: true,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/visa.png"
+        },
+        {
+            text: "Visa",
+            value: 2,
+            selected: false,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/visa.png"
+        },
+        {
+            text: "Visa",
+            value: 3,
+            selected: false,
+            description: "Hasta 12 cuotas sin interés o 18 cuotas con interés",
+            imageSrc: "img/visa.png"
+        },
+
+    ];
+    
+    $('#selectTarjeta').ddslick({
+        data:tarjetaData,
+        selectText: "Seleccioná tu tarjeta",
+        imagePosition:"left",
+        onSelected: function(selectedData){
+            //callback function: do something with selectedData;
+        }   
+    });
+    
+    var cuotaData = [
+        {
+            text: "9 cuotas fijas de $210",
+            value: 1,
+            selected: true,
+            description: "Total a pagar $2.300. Interés $350 ",
+        },
+        {
+            text: "9 cuotas fijas de $210",
+            value: 2,
+            selected: false,
+            description: "Total a pagar $2.300. Interés $350 ",
+        },
+        {
+            text: "9 cuotas fijas de $210",
+            value: 3,
+            selected: false,
+            description: "Total a pagar $2.300. Interés $350 ",
+        },
+
+    ];
+    
+    $('#selectCuotas').ddslick({
+        data: cuotaData,
+        selectText: "Seleccioná cuantas cuotas"
+    });
+    
+    
      if( $('.gallery').length ) {
         $('.gallery-container').masonry({
           itemSelector: '.gallery-image'
