@@ -15,6 +15,29 @@ $(document).ready(function() {
         controlNav: false
     });
     
+    
+    $('.multi-destino').multiselect({
+        numberDisplayed: 1,
+       nonSelectedText:"DESTINO",
+       nSelectedText : "destinos",
+       includeSelectAllOption: false,
+       selectAllText: "Select all",
+    });
+    $('.multi-actividad').multiselect({
+        numberDisplayed: 1,
+       nonSelectedText:"TIPO DE ACTIVIDAD",
+       nSelectedText : "actividades",
+       includeSelectAllOption: false,
+       selectAllText: "Select all",
+    });
+    $('.multi-duracion').multiselect({
+        numberDisplayed: 1,
+       nonSelectedText:"DURACION",
+       nSelectedText : "duraciones",
+       includeSelectAllOption: false,
+       selectAllText: "Select all",
+    });
+    
      if( $('.gallery').length ) {
         $('.gallery-container').masonry({
           itemSelector: '.gallery-image'
@@ -34,21 +57,26 @@ $(document).ready(function() {
         mobileSlider();
     });
     
-    $("#personas").focus(function() { 
-        $('.input-dropdown').addClass('show');
-    }); 
-    $("#personas").focusout(function() { 
-        $('.input-dropdown').removeClass('show');
-    }); 
-    $('.input-dropdown').click(function() {
-      $("#personas").focus();
-    });
+    if($('.page-home').length){
+        $("#personas").focus(function() { 
+            $('.input-dropdown').addClass('show');
+        }); 
+        $("#personas").focusout(function() { 
+            $('.input-dropdown').removeClass('show');
+        }); 
+        $('.input-dropdown').click(function() {
+          $("#personas").focus();
+        });
+    }
+    
     dropdown();
     $( window ).resize(function() {
         dropdown();
     });
     
     numberPicker();
+    
+    
 });
 
 function mobileSlider(){

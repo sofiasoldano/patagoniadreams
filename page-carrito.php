@@ -21,42 +21,223 @@
                     <h3 class="subtitle">Carrito(1)</h3>
                     <a href="#" class="vaciar">Vaciar carrito <img src="img/shop.png" width="25"></a>
                 </div>
-                <div class="detail">
-                    <h3 class="subtitle">Detalle de la compra</h3>
-                    <div class="d-flex">
-                        <div class="featured-image"><img src="img/imgcarritodecompra.jpg" class="img-responsive"></div>
-                        <div class="content">
-                            <ul class="stars">
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><p>5 / 5</p></li>
-                            </ul>
+                
+            </div>
+            <div class="col-md-7">
+                    <div class="shop">
+                        <div class="image">
+                            <img src="img/glaciar-perito-moreno.jpg" class="img-responsive">
+                        </div>
+                        <div class="desc">
                             <div class="name">Glaciar Perito Moreno</div>
-                            <p>Incluye: </p>
-                            <p>Traslados: Pick up por hoteles centricos</p>
-                            <p>Personas: 2 adultos</p>
-                            <p>Fecha: 20/07/19</p>
-                            <div class="price d-flex justify-content-between align-items-center">
-                                <p>Precio total</p>
-                                <div class="number"><span>$</span>1000</div>
+                            <p>Traslado al Glaciar Perito Moreno sin guía.</p>
+                            <div class="items">
+                                <div class="item duracion half">
+                                    <p>20 de septiembre</p>
+                                </div>
+                                <div class="item comienza half">
+                                    <p>A las 9:30hs</p>
+                                </div>
+                                <div class="item menores half">
+                                    <p>2 adultos</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between links-list">
+                                <div class="links">
+                                    <a href="#">Ver detalle</a>
+                                    <a href="#">Editar</a>
+                                    <a  href="#" data-toggle="modal" data-target="#eliminar">Quitar</a>
+                                </div>
+                                <div class="price"><span>$</span>1000</div>
+                            </div>
+                            <a class="lnk-agregar collapsed" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"> Agregar a tu reserva </a>
+                            <div class="collapse reserva" id="collapse1">
+                                <div class="card card-body"> 
+                                    <div class="d-flex justify-content-between">
+                                        <div class="checkbox-container">
+                                            <label for="vianda">
+                                                 <input type="checkbox" id="Vianda" value="Vianda">
+                                                <span class="checkmark"></span>
+                                                Vianda
+                                            </label>
+                                        </div>
+                                        <div class="number-picker">
+                                            <a class="icon minus"></a>
+                                            <input class="steppers-tag" readonly="readonly" tabindex="-1" value="1">
+                                            <a class="icon plus"></a>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <a href="3" class="aplicar">Aplicar</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="buttons d-flex justify-content-between">
-                        <div>
-                            <a class="btn" href="#">Ver detalle</a>
-                            <a class="btn" href="#">Editar</a>
-                            <a class="btn" href="#" data-toggle="modal" data-target="#eliminar">Quitar</a>
+                 <div class="shop">
+                        <div class="image">
+                            <img src="img/glaciar-perito-moreno.jpg" class="img-responsive">
                         </div>
-                        <div>
-                            <a class="btn buy" href="page-thank-you.php">Comprar</a>
+                        <div class="desc">
+                            <div class="name">Glaciar Perito Moreno</div>
+                            <p>Traslado al Glaciar Perito Moreno sin guía.</p>
+                            <div class="items">
+                                <div class="item duracion half">
+                                    <p>20 de septiembre</p>
+                                </div>
+                                <div class="item comienza half">
+                                    <p>A las 9:30hs</p>
+                                </div>
+                                <div class="item menores half">
+                                    <p>2 adultos</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="links">
+                                    <a href="#">Ver detalle</a>
+                                    <a href="#">Editar</a>
+                                    <a href="#" data-toggle="modal" data-target="#eliminar">Quitar</a>
+                                </div>
+                                <div class="price"><span>$</span>1000</div>
+                            </div>
+                            <a class="lnk-agregar collapsed" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2"> Agregar a tu reserva </a>
+                            <div class="collapse reserva" id="collapse2">
+                                <div class="card card-body"> 
+                                    <div class="d-flex justify-content-between">
+                                        <div class="checkbox-container">
+                                            <label for="vianda">
+                                                 <input type="checkbox" id="Vianda" value="Vianda">
+                                                <span class="checkmark"></span>
+                                                Vianda
+                                            </label>
+                                        </div>
+                                        <div class="number-picker">
+                                            <a class="icon minus"></a>
+                                            <input class="steppers-tag" readonly="readonly" tabindex="-1" value="1">
+                                            <a class="icon plus"></a>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <a href="3" class="aplicar">Aplicar</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                 <div class="shop">
+                        <div class="image">
+                            <img src="img/glaciar-perito-moreno.jpg" class="img-responsive">
+                        </div>
+                        <div class="desc">
+                            <div class="name">Glaciar Perito Moreno</div>
+                            <p>Traslado al Glaciar Perito Moreno sin guía.</p>
+                            <div class="items">
+                                <div class="item duracion half">
+                                    <p>20 de septiembre</p>
+                                </div>
+                                <div class="item comienza half">
+                                    <p>A las 9:30hs</p>
+                                </div>
+                                <div class="item menores half">
+                                    <p>2 adultos</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div class="links">
+                                    <a href="#">Ver detalle</a>
+                                    <a href="#">Editar</a>
+                                    <a href="#" data-toggle="modal" data-target="#eliminar">Quitar</a>
+                                </div>
+                                <div class="price"><span>$</span>1000</div>
+                            </div>
+                            <a class="lnk-agregar collapsed" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"> Agregar a tu reserva </a>
+                            <div class="collapse reserva" id="collapse3">
+                                <div class="card card-body"> 
+                                    <div class="d-flex justify-content-between">
+                                        <div class="checkbox-container">
+                                            <label for="vianda">
+                                                 <input type="checkbox" id="Vianda" value="Vianda">
+                                                <span class="checkmark"></span>
+                                                Vianda
+                                            </label>
+                                        </div>
+                                        <div class="number-picker">
+                                            <a class="icon minus"></a>
+                                            <input class="steppers-tag" readonly="readonly" tabindex="-1" value="1">
+                                            <a class="icon plus"></a>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <a href="3" class="aplicar">Aplicar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="option-selected d-flex justify-content-between">
+                                <div>
+                                    Vianda<br>1 vianda
+                                </div>
+                                <a href="#" class="remove"></a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="voucher hidden-xs">
+                    <div class="checkbox-container">
+                        <label for="codigo">
+                             <input type="checkbox" id="codigo" value="codigo">
+                            <span class="checkmark"></span>
+                            ¡Tengo un código promocional, cupón de regalo o cupón de Profesional!
+                        </label>
+                    </div>
+                    <form>
+                        <input type="text" id="code" name="code">
+                        <input class="canjear" type="submit" value="Canjear">
+                    </form>
                 </div>
-            </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="detail small">
+                        <h3 class="subtitle">Detalle de la compra</h3>
+                        <div class="detail-item">
+                            <p>Excursión Glaciar Perito Moreno</p>
+                            <div class="d-flex justify-content-between">
+                                <p>Traslado al Glaciar Perito Moreno sin guía.</p>
+                                <p>$1.000</p>
+                            </div>
+                            <div class="option-selected d-flex justify-content-between">
+                                <div>
+                                    Vianda<br>1 vianda
+                                </div>
+                                <div>
+                                    <a href="#" class="remove"></a><br>
+                                    $1.000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <p>Excursión Glaciar Perito Moreno</p>
+                            <div class="d-flex justify-content-between">
+                                <p>Traslado al Glaciar Perito Moreno sin guía.</p>
+                                <p>$1.000</p>
+                            </div>
+                            <div class="option-selected d-flex justify-content-between">
+                                <div>
+                                    Vianda<br>1 vianda
+                                </div>
+                                <div>
+                                    <a href="#" class="remove"></a><br>
+                                    $1.000
+                                </div>
+                            </div>
+                        </div>
+                        <div class="precio-final d-flex justify-content-between align-items-center">
+                            <p><b>Precio final</b></p>
+                            <div class="price">
+                                <span>$</span>2000
+                            </div>
+                        </div>
+                        <a class="comprar-lnk">Comprar</a>
+                    </div>
+                </div>
         </div>
     </div>
 </section>

@@ -9,6 +9,7 @@
     <!-- Style -->
       
     <link rel="stylesheet" href="css/vendors/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendors/bootstrap-multiselect.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vendors/flexslider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vendors/animate.css">    
     <link rel="stylesheet" href="css/main.css" rel="stylesheet">

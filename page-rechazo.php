@@ -17,9 +17,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <div class="gracias">¡Gracias por tu compra!</div>
+                <div class="gracias rechazo">¡Tu compra fue rechazada!</div>
                 <div class="gracias-content">
-                    <p>Te enviamos los vouchers a <a href="mailto:mailcliente@gmail.com">mailcliente@gmail.com</a></p>
+                    <p>No pudimos efectuar tu pago. Te sugerimos que lo vuelvas a intentar</p>
                     <p>Podes contactarnos a través de Whatsapp <img src="img/icon-wpp.png" width="20"><a class="wpp" href="tel:112902494450">11 2902494450</a> <br>ó a nuestro email <a href="reservas@patagoniadreams.com.ar">reservas@patagoniadreams.com.ar</a>
                     <br>ó a los telefonos <br> (+54) 2902 - 494 - 450 <br> (+54) 2902 - 496 - 100
                     </p>

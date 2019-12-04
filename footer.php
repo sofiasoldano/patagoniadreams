@@ -49,6 +49,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="js/vendors/masonry.pkgd.js"></script>
+    <script src="js/vendors/bootstrap-multiselect.js"></script>
     <script src="js/vendors/bootstrap.min.js"></script>
     <script src="js/vendors/jquery.flexslider.js"></script>
     <script src="js/vendors/wow.min.js"></script>

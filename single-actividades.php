@@ -1,7 +1,7 @@
 <?php $page_name = "single-actividades" ?>
 <?php include('header.php'); ?>
 
-<section class="breadcrumbs">
+<section class="breadcrumbs bg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -33,27 +33,43 @@
                 <div class="description">
                     <div class="box">
                         <div class="desc">
-                            <ul class="stars">
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><img src="img/star.png" width="25"></li>
-                                <li><p>5 / 5</p></li>
-                            </ul>
                             <div class="name">Glaciar Perito Moreno</div>
                             <p>Traslado al Glaciar Perito Moreno sin guía</p>
+                            <div class="item salidas">
+                                    <p>Salidas <br><span>Todos los días</span></p>
+                                </div>
                             <div class="item duracion half">
                                 <p>Duracion <br><span>8hs</span></p>
                             </div>
-                            <div class="item salidas">
-                                <p>Salidas <br><span>Todos los días</span></p>
+                            <div class="item comienza half">
+                                <p>Comienza <br><span>9:30hs</span></p>
+                            </div>
+                            <div class="item menores half">
+                                <p>Menores <br><span>3 a 12 años</span></p>
+                            </div>
+                            <div class="item bebes half">
+                                <p>Bebés <br><span>0 a 2 años</span></p>
+                            </div>
+                            <div class="option">
+                                <div class="price">
+                                    <div class="inputs d-flex justify-content-between">
+                                        <input type="text" placeholder="Fechas" class="fechas">
+                                        <input type="text" placeholder="Personas" class="personas">
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p>Precio final<br> por adulto</p>
+                                        <div class="number"><span>$</span>1000</div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
+                        <div class="buttons">
+                                    <a href="#" class="blue">Comprar</a>
+                                    <a href="#" class="gray">Agregar</a>
+                                </div>
                     </div>
-                    <div class="btn-bottom">
-                        <a href="#">Ver opciones</a>
-                    </div>
+               
                     
                 </div>
                 <div class="prepare hidden-xs">
