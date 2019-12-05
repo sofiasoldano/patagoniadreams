@@ -120,15 +120,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="box option selected">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
-                        <div class="item duracion half">
-                            <p>Duracion <br><span>8hs</span></p>
-                        </div>
-                        <div class="item salidas">
-                            <p>Salidas <br><span>Todos los días</span></p>
+                        <div class="items">
+                            <div class="item duracion half">
+                                <p>Duracion <br><span>8hs</span></p>
+                            </div>
+                            <div class="item salidas">
+                                <p>Salidas <br><span>Todos los días</span></p>
+                            </div>
                         </div>
                         <div>
                             <p>Incluye</p>
@@ -159,15 +161,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="box option">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
-                        <div class="item duracion half">
-                            <p>Duracion <br><span>8hs</span></p>
-                        </div>
-                        <div class="item salidas">
-                            <p>Salidas <br><span>Todos los días</span></p>
+                        <div class="items">
+                            <div class="item duracion half">
+                                <p>Duracion <br><span>8hs</span></p>
+                            </div>
+                            <div class="item salidas">
+                                <p>Salidas <br><span>Todos los días</span></p>
+                            </div>
                         </div>
                         <div>
                             <p>Incluye</p>
@@ -199,15 +203,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="box option">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
-                        <div class="item duracion half">
-                            <p>Duracion <br><span>8hs</span></p>
-                        </div>
-                        <div class="item salidas">
-                            <p>Salidas <br><span>Todos los días</span></p>
+                        <div class="items">
+                            <div class="item duracion half">
+                                <p>Duracion <br><span>8hs</span></p>
+                            </div>
+                            <div class="item salidas">
+                                <p>Salidas <br><span>Todos los días</span></p>
+                            </div>
                         </div>
                         <div>
                             <p>Incluye</p>
