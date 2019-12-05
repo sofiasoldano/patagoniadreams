@@ -1120,7 +1120,7 @@ header .menu .close-menu .line:nth-of-type(2){
     font-size: 30px;
 }
 .detail.small p{
-    font-size: 19px;
+    font-size: 16px;
 }
 .detail.small .price{
     font-size: 28px;
@@ -1732,7 +1732,6 @@ footer .bottom .d-flex > div{
 }
 .purchase{
     margin: 50px 0;
-    font-size: 20px;
     margin-bottom: 200px;
 }
 .purchase .input-container {
