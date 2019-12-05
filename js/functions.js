@@ -63,7 +63,7 @@ $(document).ready(function() {
 
     ];
     
-    $('#selectBanco').ddslick({
+    $('.selectBanco').ddslick({
         data:bancoData,
         selectText: "Seleccioná tu banco",
         imagePosition:"left",
@@ -97,7 +97,7 @@ $(document).ready(function() {
 
     ];
     
-    $('#selectTarjeta').ddslick({
+    $('.selectTarjeta').ddslick({
         data:tarjetaData,
         selectText: "Seleccioná tu tarjeta",
         imagePosition:"left",
@@ -128,11 +128,25 @@ $(document).ready(function() {
 
     ];
     
-    $('#selectCuotas').ddslick({
+    $('.selectCuotas').ddslick({
         data: cuotaData,
         selectText: "Seleccioná cuantas cuotas"
     });
     
+    
+    if( $('.purchase').length ) {
+        $('.content-debito').fadeOut();
+        $('input[type="radio"][name="payment"]').on('change',function(){
+          var ThisIt = $(this);
+          if(ThisIt.val() == "credito"){
+               $('.content-credito').slideDown();
+               $('.content-debito').slideUp();
+          } else if(ThisIt.val() == "debito"){
+               $('.content-credito').slideUp();
+               $('.content-debito').slideDown();
+          }
+        });
+    }
     
      if( $('.gallery').length ) {
         $('.gallery-container').masonry({
