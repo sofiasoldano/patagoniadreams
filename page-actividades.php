@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity selected">
                     <div class="image"><img src="img/glaciar-perito-moreno.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -70,7 +70,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/chalten-full-day.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -89,7 +89,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciares-gourmet.png" class="img-responsive"></div>
                     <div class="content">
@@ -108,7 +108,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/minitrekking.png" class="img-responsive"></div>
                     <div class="content">
@@ -127,7 +127,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciar-perito-moreno.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -146,7 +146,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/chalten-full-day.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -165,7 +165,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciares-gourmet.png" class="img-responsive"></div>
                     <div class="content">
@@ -184,7 +184,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/minitrekking.png" class="img-responsive"></div>
                     <div class="content">
@@ -203,7 +203,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciar-perito-moreno.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -222,7 +222,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/chalten-full-day.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -241,7 +241,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciares-gourmet.png" class="img-responsive"></div>
                     <div class="content">
@@ -260,7 +260,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/minitrekking.png" class="img-responsive"></div>
                     <div class="content">
@@ -279,7 +279,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciar-perito-moreno.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -298,7 +298,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/chalten-full-day.jpg" class="img-responsive"></div>
                     <div class="content">
@@ -317,7 +317,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/glaciares-gourmet.png" class="img-responsive"></div>
                     <div class="content">
@@ -336,7 +336,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-xl-3 col-md-6">
                 <a href="#" class="box activity">
                     <div class="image"><img src="img/minitrekking.png" class="img-responsive"></div>
                     <div class="content">

@@ -5,7 +5,7 @@ html, body{
 	background: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.5;
     color: #000000;
     overflow-x: hidden;
@@ -49,7 +49,7 @@ ul{
 /* GENERAL */
 .title{
     color: #3D4354;
-    font-size: 31px;
+    font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -57,7 +57,7 @@ ul{
 }
 .subtitle{
     color: #1C2635;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
     margin-bottom: 30px;
     font-weight: 400;
@@ -65,13 +65,13 @@ ul{
 .small-subtitle{
     color: #82D1E7;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
 .section-title{
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -85,7 +85,7 @@ ul{
     border-radius: 0;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
     letter-spacing: 2px;
     padding: 10px 40px;
@@ -97,7 +97,7 @@ ul{
     transition: all 0.5s;
 }
 .lnk{
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 1px solid;
     font-weight: 500;
 }
@@ -148,9 +148,8 @@ ul{
 .box .content{
     background: #ffffff;
     padding: 20px;
-    font-size: 15px;
+    font-size: 14px;
     overflow: hidden;
-    height: 233px;
 }
 .box .content p{
     margin: 0;
@@ -160,13 +159,13 @@ ul{
 }
 .box .name{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 26px;
     color: #1C2635;
     margin-bottom: 20px;
 }
 .box .mas-info{
     color: #3D4354;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 200;
     text-transform: uppercase;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -187,7 +186,7 @@ ul{
     position: absolute;
     display: block;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 200px;
     text-transform: uppercase;
     padding: 10px 15px;
@@ -250,7 +249,7 @@ ul{
     top: 12px;
 }
 .breadcrumbs li a, .breadcrumbs li p{
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 200;
     color: #a8a8a8;
 }
@@ -266,7 +265,7 @@ ul{
     margin-bottom: 20px;
 }
 .stars li p{
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     font-weight: 500;
     margin-left: 10px;
@@ -303,12 +302,12 @@ ul{
     border-radius: 8px;
 }
 .input-dropdown p{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1;
     text-align: left;
 }
 .input-dropdown p span{
-    font-size: 15px;
+    font-size: 14px;
     color: #aaa;
 }
 .number-picker{
@@ -340,7 +339,7 @@ ul{
     background: none;
     text-align: center;
     border: 0;
-    font-size: 20px;
+    font-size: 18px;
     border-right: 1px solid rgba(0, 0, 0, 0.31);
     border-left: 1px solid rgba(0, 0, 0, 0.31);
     height: 24px;
@@ -432,7 +431,7 @@ header .menu ul:after{
 }
 header .menu li a{
     display: block;
-    font-size: 26px;
+    font-size: 24px;
     position: relative;
     margin-bottom: 10px;
     width: fit-content; 
@@ -457,7 +456,7 @@ header .menu li a:hover:after{
     transition: all 0.5s;
 }
 header .profesionales{
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -678,7 +677,7 @@ header .menu .close-menu .line:nth-of-type(2){
     border: 0;
     border-bottom: 1px solid #3D4354;
     color: #3D4354;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 200;
     background-image: url(img/i-salida.png);
     background-repeat: no-repeat;
@@ -688,6 +687,7 @@ header .menu .close-menu .line:nth-of-type(2){
 .plan input.destino{
     background-image: url(img/i-destino-lugar.png);
     background-size: 50px;
+    background-position: right 10px bottom;
 }
 .plan input.personas{
     background-image: url(img/i-personas.png);
@@ -867,10 +867,10 @@ header .menu .close-menu .line:nth-of-type(2){
 }
 .activity .price p, .option .price p{
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 .activity .price .number, .option .price .number{
-    font-size: 50px;
+    font-size: 42px;
     color: #82D1E7;
     font-weight: 600;
     line-height: 1;
@@ -921,7 +921,7 @@ header .menu .close-menu .line:nth-of-type(2){
     padding: 20px 30px;
 }
 .option .name{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -944,7 +944,7 @@ header .menu .close-menu .line:nth-of-type(2){
     padding: 30px 0;
 }
 .option .price .number{
-    font-size: 63px;
+    font-size: 55px;
 }
 .option input{
     border: 0;
@@ -1255,11 +1255,8 @@ footer .bottom .d-flex > div{
 
 /* SINGLE ACTIVIDADES */
 .page-single-actividades .subtitle {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
-}
-.page-single-actividades li, .page-single-actividades p{
-    font-size: 21px;
 }
 
 .page-single-actividades .description {
@@ -1414,7 +1411,7 @@ footer .bottom .d-flex > div{
 }
 .page-carrito .shop .name{
     font-weight: 800;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 1;
 }
 .page-carrito .items{
@@ -1587,7 +1584,7 @@ footer .bottom .d-flex > div{
     margin-left: 20px;
 }
 .detail.small .subtitle{
-    font-size: 32px;
+    font-size: 26px;
     border-bottom: 1px solid;
     padding-bottom: 20px;
 }
@@ -1702,14 +1699,14 @@ footer .bottom .d-flex > div{
 
 /* THANK YOU */
 .page-thank-you .subtitle{
-    font-size: 35px;
+    font-size: 28px;
 }
 .thank-you .container{
     margin: 50px auto;
     border-bottom: 1px solid #3D4354;
 }
 .thank-you .gracias{
-    font-size: 56px;
+    font-size: 45px;
     font-weight: 500;
     margin-bottom: 50px;
 }
@@ -1717,7 +1714,7 @@ footer .bottom .d-flex > div{
     color: #e21c24;
 }
 .thank-you .gracias-content p{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 50px;
 }
 .thank-you .gracias-content p a{
@@ -1731,7 +1728,7 @@ footer .bottom .d-flex > div{
 
 /* COMPRA */
 .page-purchase .subtitle {
-    font-size: 35px;
+    font-size: 30px;
 }
 .purchase{
     margin: 50px 0;
@@ -1748,7 +1745,7 @@ footer .bottom .d-flex > div{
     display: inline-block;
     margin: 0;
     padding-left: 15px;
-    font-size: 19px;
+    font-size: 18px;
 }
 .purchase .input-container input, .purchase .input-container .select{
     width: 70%;
@@ -2173,11 +2170,11 @@ footer .bottom .d-flex > div{
         display: none;
     }
     .title{
-        font-size: 45px;
+        font-size: 40px;
         letter-spacing: 5px;
     }
     .subtitle{
-        font-size: 43px;
+        font-size: 36px;
     }
     .single-slider{
         margin-bottom: -71px;
@@ -2188,7 +2185,7 @@ footer .bottom .d-flex > div{
 }
 @media (min-width: 990px) {
     .actividades .nav-tabs a{
-        font-size: 19px;
+        font-size: 17px;
     }
     header .menu{
         width: 40%;
@@ -2279,6 +2276,9 @@ footer .bottom .d-flex > div{
     .input-dropdown {
         margin-left: -13px;
     }
+    .activity .name{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1400px){
@@ -2296,6 +2296,12 @@ footer .bottom .d-flex > div{
     }
     .input-dropdown {
         margin-left: 0;
+    }
+    .box .content{
+        height: 233px;
+    }
+    .activity .name{
+        font-size: 20px;
     }
 }
 
