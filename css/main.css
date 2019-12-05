@@ -1708,6 +1708,8 @@ footer .bottom .d-flex > div{
     font-size: 56px;
     font-weight: 500;
     margin-bottom: 50px;
+}
+.thank-you .gracias.rechazo{
     color: #e21c24;
 }
 .thank-you .gracias-content p{
