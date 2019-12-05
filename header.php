@@ -54,8 +54,8 @@
                         <a href="#" class="profesionales">Profesionales</a>
                     </div>
                     <div class="logo">
-                        <img src="img/logo-default.png" width="260" class="default">
-                        <img src="img/logo-white.png" width="260" class="white">
+                        <img src="img/logo-default.png" width="200" class="default">
+                        <img src="img/logo-white.png" width="200" class="white">
                     </div>
                     <a href="page-carrito.php" class="icon-shop">
                         <img src="img/shop.png" width="35">
