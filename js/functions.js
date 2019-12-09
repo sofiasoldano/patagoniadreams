@@ -182,6 +182,12 @@ $(document).ready(function() {
     dropdown();
     $( window ).resize(function() {
         dropdown();
+        if( $('.mobile-slider').length ) {
+            if($( window ).width() > 768){
+                location.reload();
+            }
+        }
+        
     });
     
     numberPicker();
@@ -207,6 +213,8 @@ function mobileSlider(){
             minItems: 1,
             maxItems: 1
         });
+    } else{
+        $('.mobile-slider').removeClass('flexslider');
         
     }
 }

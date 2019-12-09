@@ -16,7 +16,7 @@
 <section class="purchase">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-xl-7">
                 <div class="voucher hidden-xs">
                     <div class="checkbox-container">
                         <label for="codigo">
@@ -238,7 +238,7 @@
                 </div>
                 
             </div>
-            <div class="col-md-5">
+            <div class="col-xl-5">
                 
                 <div class="detail small">
                         <h3 class="subtitle">Detalle del pago</h3>

@@ -23,7 +23,7 @@
                 </div>
                 
             </div>
-            <div class="col-md-7">
+            <div class="col-xl-7">
                     <div class="shop">
                         <div class="image">
                             <img src="img/glaciar-perito-moreno.jpg" class="img-responsive">
@@ -194,7 +194,7 @@
                     </form>
                 </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-xl-5">
                     <div class="detail small">
                         <h3 class="subtitle">Detalle de la compra</h3>
                         <div class="detail-item">

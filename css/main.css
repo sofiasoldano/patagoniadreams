@@ -2169,6 +2169,9 @@ footer .bottom .d-flex > div{
     .page-carrito .detail .d-flex {
          display: flex !important; 
     }
+    .option input{
+        background-position: right 0 center;
+    }
 }
 @media (min-width: 768px) {
     .visible-xs{

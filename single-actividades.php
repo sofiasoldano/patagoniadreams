@@ -120,7 +120,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-xl-4">
                 <div class="box option selected">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-xl-4">
                 <div class="box option">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
@@ -203,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-xl-4">
                 <div class="box option">
                     <div class="desc">
                         <div class="name">Bus Regular al Glaciar Perito Moreno</div>
